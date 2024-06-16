@@ -1,0 +1,25 @@
+{
+  "name": "calendar-booking",
+  "version": "1.0.0",
+  "description": "create a booking calendar, to display date availability",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/jabbarbie/calendar-booking"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "calendar",
+    "booking",
+    "availability"
+  ],
+  "author": "jabbarbie",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
